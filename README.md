@@ -15,3 +15,4 @@ Angular Elements Ivy Demo Example
   ```
   npm start
   browse: http://localhost:3000
+  ```
