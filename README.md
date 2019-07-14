@@ -2,7 +2,6 @@
 Angular Elements Ivy Demo Example
 
 
-
 ## Getting Started
 * Clone repository
   ```
@@ -18,3 +17,6 @@ Angular Elements Ivy Demo Example
   npm start
   browse: http://localhost:3000
   ```
+  <br />
+  
+  ![alt text](https://raw.githubusercontent.com/aelbore/angular-elements-ivy/master/card-search.gif)
