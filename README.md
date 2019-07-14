@@ -4,7 +4,7 @@ Angular Elements Ivy Demo Example
 ## Getting Started
 * Clone repository
   ```
-  git clone https://github.com/aelbore/angular-ivy-hello-world.git
+  git clone https://github.com/aelbore/angular-elements-ivy.git
   npm install
   ```
 * Build
