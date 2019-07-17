@@ -3,11 +3,10 @@ import {
   Input, 
   Output, 
   EventEmitter, 
-  ɵdetectChanges as detectChanges,
   ViewEncapsulation
 } from '@angular/core'
 
-import wrap from '../wrapper'
+import { renderCustomElement } from 'ngx-elements'
 
 @Component({
   selector: 'ar-input',
@@ -28,8 +27,6 @@ export class InputComponent {
 
   inputBlur(evt: any) {
     this.value = evt.target.value
-    detectChanges(this)
-
     this.onInputBlur.emit({ value: this.value })
   }
 
@@ -43,4 +40,4 @@ export class InputComponent {
 
 }
 
-customElements.define('ar-input', wrap(InputComponent))
+renderCustomElement(InputComponent)

@@ -38,6 +38,7 @@
     "@angular/common": "8.1.1",
     "@angular/compiler": "8.1.1",
     "@angular/compiler-cli": "8.1.1",
-    "@angular/core": "8.1.1"
+    "@angular/core": "8.1.1",
+    "ngx-elements": "0.0.1"
   }
 }

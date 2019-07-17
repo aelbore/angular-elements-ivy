@@ -1,5 +1,5 @@
 import { Component, ViewEncapsulation, Input } from '@angular/core'
-import wrap from '../wrapper';
+import { renderCustomElement } from 'ngx-elements'
 
 export class Profile {
   name?: string;
@@ -9,7 +9,7 @@ export class Profile {
 }
 
 @Component({
-  selector: 'card',
+  selector: 'ar-card',
   templateUrl: './card.html',
   styleUrls: [ './card.css' ],
   encapsulation: ViewEncapsulation.ShadowDom
@@ -27,4 +27,4 @@ export class CardComponent {
 
 }
 
-customElements.define('ar-card', wrap(CardComponent))
+renderCustomElement(CardComponent)
